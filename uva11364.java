@@ -11,7 +11,7 @@ public class uva11364 {
 			int stores = Integer.parseInt(br.readLine());
 			if (stores < 2) {
 				System.out.println(0);
-				br.readLine();
+				br.readLine(); // need to read line even if I don't use it
 			}
 			else {
 				String[] in = br.readLine().split(" ");
