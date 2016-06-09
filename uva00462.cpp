@@ -89,8 +89,7 @@ int main() {
 			printf("PASS\n");
 		else if(points >= 16 && allstopped)
 			printf("BID NO-TRUMP\n");
-		else {
+		else
 			printf("BID %c\n", reverse[maxsuit]);
-		}
 	}
 }
