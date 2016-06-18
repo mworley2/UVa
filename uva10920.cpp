@@ -37,6 +37,7 @@ int main() {
 				case 3:
 					y = (center - (innersq/2) + espot);
 					x = (center + (innersq/2) + 1);
+					break;
 			}
 		}
 		printf("Line = %lld, column = %lld.\n", y, x);
