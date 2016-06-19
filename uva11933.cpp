@@ -3,7 +3,6 @@
 #include <cstdio>
 #include <cstring>
 #include <bitset>
-
 using namespace std;
 int main() {
     int n;
